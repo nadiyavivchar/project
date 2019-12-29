@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!-- code by webdevtrick (https://webdevtrick.com) -->
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Quiz</title>
+    <link rel="stylesheet" type="text/css" href="css/quiz_styles.css">
+</head>
+<body>
+    <div class="grid">
+        <div id="quiz">
+            <button class="button_quiz" onclick="window.location.href = 'index.html';">Go back</button>
+            <h1>How well do you know Ukrainians?</h1>
+            <hr style="margin-bottom: 20px">
+
+            <p id="question"></p>
+
+            <div class="buttons">
+                <button id="btn0"><span id="choice0"></span></button>
+                <button id="btn1"><span id="choice1"></span></button>
+                <button id="btn2"><span id="choice2"></span></button>
+                <button id="btn3"><span id="choice3"></span></button>
+            </div>
+
+            <hr style="margin-top: 50px">
+            <footer>
+                <p id="progress">Question x of y</p>
+                <div class="below">
+                    Want to learn more about us? Visit us or check out the links below 
+                </div>
+                <div class="logos">
+                    <a href="https://ukrainer.net/eng/"> 
+                    <img src="https://ukrainer.net/wp-content/themes/ukrainer/img/logo-g.svg" width="100px" height="30px">
+                    <a href="https://traveltoukraine.org/">
+                    <img src="https://www.usukraine.org/wp-content/uploads/2018/01/cropped-US-UKRAINE-Square.jpg" width="70px" height="70px">
+                    <a href="https://edition.cnn.com/travel/article/11-most-beautiful-places-in-ukraine/index.html">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/CNN.svg/1280px-CNN.svg.png" width="70px" height="40px">
+                    <a href="https://www.telegraph.co.uk/travel/destinations/europe/ukraine/articles/amazing-fact-you-probably-didnt-know-about-ukraine/">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/The_Telegraph_logo.svg/1280px-The_Telegraph_logo.svg.png" width="120px" height="30px">
+                </div>
+            </footer>
+        </div>
+    </div>
+
+
+<script src="quiz.js"></script>
+
+</body>
+</html>

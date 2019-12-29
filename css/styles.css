@@ -1,0 +1,93 @@
+header{
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    font-family: Snell Roundhand, cursive;
+    font-size: large;
+    height: 300px;
+    widows: 100%;
+    background-image: url(../img/Ukraine.jpg)
+}
+.text_header{
+    align-items: center;
+    text-align: center;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 300px; 
+    color: azure;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+.title{
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    align-self: center;
+    padding-top: 20px;
+}
+main{
+    background-color: #e3eaec;
+}
+.text_facts{
+    text-align: center;
+    align-self: center;
+}
+.quiz_index{
+    align-self: center;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 200;
+    margin-top: 40px;
+    padding-bottom: 50px;
+}
+.button_index{
+    background-color: green;
+    color: ivory;
+    height: 35px;
+    width: 70px;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.button_index:hover{
+    background-color: lightblue;
+    color: lightcyan;
+
+}
+footer{
+    background-color: #83b8bd;
+    height: 120px;
+}
+
+.contacts h1{
+    font-size: 25px;
+    font-weight: 100;
+    align-self: center;
+    align-content: center;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.logos{
+    align-self: center;
+    align-content: center;
+    text-align: center;
+
+}
+
+.created{
+    align-content: right;
+    font-size: 25px;
+    font-weight: 100;
+    color: lightslategrey;
+    margin-left: 70%;
+    position: relative;
+    vertical-align: center;
+    display: inline;
+}
+
+
+
